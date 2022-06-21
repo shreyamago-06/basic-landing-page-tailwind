@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.v7_671 {
+    width: 100%;
+    max-height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 1px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.page-container {
+    @apply flex h-full w-full flex-1 flex-col items-center text-center
+}
+
+.title {
+    @apply text-eerieBlack text-3xl font-medium leading-tight font-Comfortaa mb-8;
+}
+
+.description {
+    @apply max-w-5xl text-lg text-charcoal font-Poppins font-medium md:px-20 px-4;
+}
+
+.section-container {
+    @apply flex flex-col w-full items-center justify-center pt-14 max-w-screen-xl md:px-20 px-4;
+}
+
+.card-title {
+    @apply text-black font-Comfortaa font-bold text-2xl pb-5 ml-1 mr-1
+}
+
+.card-description {
+    @apply font-Poppins font-medium text-base text-charcoal mb-8
+}
+
+.bullet-point-text {
+    @apply font-Poppins font-medium text-base text-left text-charcoal
+}
+
+.bullet-point-style-02-text {
+    @apply font-Comfortaa font-bold text-base text-left text-black
+}
+
+.bullet-point-style-02-description {
+    @apply font-Poppins font-semibold text-sm text-left text-charcoal
+}
+
+.h1 {
+    @apply font-Comfortaa font-bold text-2xl
+}
+
+.service-title {
+    @apply font-Comfortaa font-bold text-4xl text-eerieBlack
+}
+
+.designation-heading {
+    @apply font-Poppins font-medium text-base
+}
+
+.dotted-border {
+    border-image: url('/img/dotted_line.svg') 100% 6;
+    border-bottom-width: 8px;
+}
+
+.dotted-border-green {
+    border-image: url('/img/dotted_line_green.svg') 100% 6;
+    border-bottom-width: 10px;
+}
+
+.text-medium {
+    @apply font-Poppins font-medium text-base text-charcoal;
+}
+
+.text-extra-bold {
+    @apply font-Poppins font-extrabold text-base text-charcoal;
+}
+
+.h-841 {
+    height: 841px;
+}
+
+.h-741 {
+    height: 741px;
+}
+
+.cta-description-title {
+    @apply font-Comfortaa font-medium text-3xl
+}
+
+.card-container {
+    @apply grid md:grid-cols-3 gap-2 relative;
+}
+
+.pointer-container {
+    @apply flex flex-row items-start;
+}
+
+.pointer-bullet-container {
+    @apply pt-1 w-8;
+}
+
+.max-w-48 {
+    max-width: 48px;
+}
+
+.h-inherit {
+    height: inherit;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.cloud-operation-img-container img {
+    height: auto !important;
+}
+
+.header-container {
+    margin-top: 2rem;
+}
